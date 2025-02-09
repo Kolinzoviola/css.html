@@ -1,0 +1,44 @@
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  position: relative;
+  max-width: 600px;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  background-color: #a0639b;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.annotation {
+  position: absolute;
+  top: 10px;
+  right: -150px;
+  color: #2a9d8f;
+  font-family: "Segoe Script", cursive;
+  font-size: 20px;
+}
